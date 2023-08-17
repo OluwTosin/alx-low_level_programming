@@ -16,10 +16,10 @@ for (j = 0 ; j < 10 ; j++)
 {
 k = i * j;
 if (j == 0)
-printf("%d, ",k);
+printf("%d, ", k);
 else
 {
-printf("%2d",k);
+printf("%2d", k);
 if (j != 9)
 printf(", ");
 }
