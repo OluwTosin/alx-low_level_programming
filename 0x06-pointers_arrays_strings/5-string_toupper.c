@@ -14,9 +14,7 @@ i = 0;
 while (x[i] != '\0')
 {
 if (x[i] >= 'a' && x[i] <= 'b')
-{
 x[i] = x[i] - 32;
-}
 i++;
 }
 return (x);
