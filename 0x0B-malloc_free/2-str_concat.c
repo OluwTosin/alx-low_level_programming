@@ -31,6 +31,6 @@ return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 create[i] = s1[i];
 for (i = 0; s2[i] != '\0'; i++)
-create[s1len + 1] = s2[i];
+create[s1len + i] = s2[i];
 return (create);
 }
